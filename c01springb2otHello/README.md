@@ -1,4 +1,4 @@
-Spring Boot
+#Spring Boot
 简介
     是由Pivotal团队提供的全新框架。
     让程序员更好的使用Spring，简化Spring应用的初始搭建（简化配置）以及开发过程。
@@ -11,8 +11,10 @@ Spring Boot特点
 使用IDEA创建一个springboot项目
     1.Spring Initializr创建项目
     2.项目配置
-        Type属性可以下拉选择project或者pom，
-        Packaging属性可下拉选择jar或者war（Maven的东西不需要再提了吧）。
+        Type属性：下拉选择Maven project或者Maven pom，
+        Packaging属性：下拉选择jar或者war。
     3.起步依赖配置，会引入相关很多依赖jar包  
         随便选择web
-    4.随便写个controller，启动主类，访问http://localhost:8080/请求
+    4.随便写个controller，启动主类，
+    5.验证是否成功：
+        访问 http://localhost:8080/helloWorld
